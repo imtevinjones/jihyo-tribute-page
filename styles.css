@@ -44,7 +44,7 @@ ul {
     padding: 0;
 }
 
-a {
+li a {
     display: flex;
     text-decoration: none;
     width: 7.5rem;
