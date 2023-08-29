@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-    background-color: #ff7598;
+    background-color: #ff6289;
     justify-content: space-between;
     padding: 1rem;
     top: 0;
@@ -227,6 +227,7 @@ a {
     .left-info-block-1 {
         max-width: 30%;
     }
+}
 
 @media (max-width: 1180px) {
     h1 span {
