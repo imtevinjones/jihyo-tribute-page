@@ -15,6 +15,7 @@ body {
 }
 
 .header {
+    background-color: #ff7598;
     margin-bottom: auto;
     justify-content: space-between;
     padding: 2rem;
@@ -23,6 +24,10 @@ body {
 .header-logo {
     flex: none;
     width: 4rem;
+}
+
+.header-links {
+    gap: 18px;
 }
 
 #twice-logo {
@@ -45,24 +50,13 @@ a {
     color: white;
 }
 
-.header-links {
-    gap: 2rem;
-}
-
 .main-block-1 {
     display: flex;
-    flex-direction: row;
-}
-
-.header {
-    background-color: #ff7598;
-}
-
-.main-block-1 {
     background-color: #ff93ac;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
     gap: 6rem;
     padding: 5rem 0;
 }
@@ -72,7 +66,8 @@ a {
 }
 
 .left-info-block-1 h1 {
-    font-size: 2.5rem;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .right-img-block-1 { 
@@ -86,24 +81,43 @@ a {
     filter: drop-shadow(0 0 0.75rem #fc3468);
 }
 
-/* .info-main-block-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
+.button-block-1 {
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    background: #fc3468;
+}
 
 .main-block-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 5rem 0;
+}
+
+.main-block-2 h2 {
+    font-size: 36px;
 }
 
 .jihyo-action-imgs-group {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 4rem;
+}
+
+.full-info-block-2 {
+    display: flex;
+    flex: none;
+    width: 15rem;
+    height: 15rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0;
 }
 
 .jihyo-imgs-block-2 {
@@ -113,6 +127,15 @@ a {
     overflow: hidden;
     border: 1px solid #ffc2cd;
     border-radius: 10px;
+}
+
+.text-block-2 {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.text-block-2 span {
+    display: block;
 }
 
 .square-img {
@@ -126,7 +149,7 @@ a {
 }
 
 @media (max-width: 1180px) {
-    span {
+    h1 span {
         display: block;
     }
 }
